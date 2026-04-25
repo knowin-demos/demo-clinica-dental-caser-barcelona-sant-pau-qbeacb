@@ -1,0 +1,104 @@
+{
+  "empresa": "Clínica Dental Caser Barcelona - Sant Pau",
+  "web": "https://clinicasdentalescaser.es",
+  "sector": "salud",
+  "builder": "unknown",
+  "fecha": "2026-04-25T13:54:55.358Z",
+  "templateVersion": "v9-skin-viral",
+  "aiModel": "skin-overlay-viral",
+  "aiCost": "$0.00",
+  "cssPersonalized": true,
+  "cssApproach": "skin-overlay-viral",
+  "philosophy": "CONTENIDO_INTACTO + APARIENCIA_PREMIUM + COMPONENTES_VIRALES",
+  "verify": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "sizeKB": 220,
+    "checksRun": 12,
+    "checksPassed": 12
+  },
+  "cssSelectorsUsed": {
+    "sections": "body > main > section,body > div > section,body > section",
+    "cards": "[class*=\"card\"]:not([class*=\"card-body\"]):not([class*=\"card-header\"]),[class*=\"service-box\"],[class*=\"feature-box\"],[class*=\"team-member\"],[class*=\"pricing\"]",
+    "buttons": "a[class*=\"btn\"]:not([class*=\"nav\"]):not([class*=\"menu\"]):not([class*=\"close\"]),a[class*=\"cta\"],a[class*=\"button\"]:not([class*=\"nav\"]):not([class*=\"menu\"])",
+    "nav": "header.fixed,header.sticky,[class*=\"sticky-header\"],[class*=\"fixed-header\"]"
+  },
+  "siteAnalysis": {
+    "builder": "unknown",
+    "fonts": [
+      "LatoRegular",
+      "LatoBold",
+      "Lato",
+      "LatoBold}.sticky-items .header-web-desktop-options .te-llamamos div.reserva-cita{border:2px solid var(--caser-blue)",
+      "LatoBold}#main-block .right-block .container .online a{text-decoration:none}#main-block .right-block .container .subtitle{font-family:LatoBold"
+    ],
+    "colors": [
+      "#00829a",
+      "#015f70",
+      "#f67323",
+      "#cf5e1c",
+      "#d3deda"
+    ],
+    "hasStickyHeader": false,
+    "hasTestimonials": false,
+    "hasSlider": true,
+    "hasGallery": false,
+    "imgCount": 218,
+    "formCount": 2
+  },
+  "improvements": [
+    "URLs relativas → absolutas (base: https://clinicasdentalescaser.es)",
+    "Skin Overlay Premium (tipografía, border-radius, sombras, scrollbar)",
+    "Banner demo + Sticky Nav inteligente con progress",
+    "Schema.org JSON-LD (MedicalBusiness)",
+    "Componentes virales: Tel Tooltip, Back-to-Top, Lightbox automático",
+    "212 imgs lazy loading"
+  ],
+  "skinOverlay": [
+    "Tipografía Manrope + Inter (premium 2026)",
+    "Border-radius 14px en imágenes y tarjetas",
+    "Sombras multicapa (efecto Apple)",
+    "Background sutil con gradiente branded",
+    "Scrollbar premium con colores del sector",
+    "Selección de texto branded",
+    "Scroll reveal secciones (opacity:0.3 failsafe)",
+    "Image zoom en hover",
+    "Input focus glow branded",
+    "Botones con hover elevación"
+  ],
+  "viralComponents": [
+    "Sticky Nav inteligente con progress bar (estilo Stripe)",
+    "Tooltip animado en teléfonos (Llamar ahora)",
+    "Smart Back-to-Top con progress circular",
+    "Lightbox automático en imágenes grandes",
+    "Demo banner inline"
+  ],
+  "preservedContent": "TEXTO INTACTO, ESTRUCTURA INTACTA, POSICIONES INTACTAS",
+  "extractedData": {
+    "phone": "+34915909727",
+    "email": "No encontrado",
+    "address": "C/ Marqués de Valdavia, 97",
+    "jsonLdFound": false
+  },
+  "performance": {
+    "lazyLoading": 212,
+    "webpConversion": 0,
+    "fontOptimization": "bunny-fonts",
+    "trackingRemoved": true
+  },
+  "seo": {
+    "metaTags": {
+      "openGraph": "added_missing",
+      "twitterCard": "added",
+      "geoTags": "added"
+    },
+    "schemaOrg": {
+      "webSite": "added",
+      "faqPage": "in_nosotros_page"
+    },
+    "content": {
+      "altTexts": "213 fixed"
+    }
+  }
+}
